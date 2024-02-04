@@ -1,0 +1,76 @@
+/* 
+// quizApp.css
+// Author: Kaylee Ryu
+// Last Modified: Feb 3, 2024
+*/
+
+#results-section {
+    display: none;
+}
+
+.option {
+    background-color: #eceee4;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 1em;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 500px;
+    height: 50px;
+    text-align: left;
+}
+
+.option:hover {
+    background-color: #816477;
+    color: #ffffff;
+    border-color: #816477;
+}
+
+.option.selected {
+    background-color: #816477;
+    color: #ffffff;
+    border-color: #816477;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bde7f9;
+    color: #333;
+    margin: 40px;
+}
+
+#question{
+    margin-left: 20px;
+}
+
+h1{
+    border: 1px solid #816477;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    background-color: #d6e1f5;
+    color: #816477;
+}
+
+#navigation-section{
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+#navigation-section button{
+    width: 70px;
+    height: 30px;
+}
+
+#results-section button{
+    width: 70px;
+    height: 30px;
+}
+
+#results-section p{
+    padding: 20px;
+    background-color: #eceee4;
+    border: 1px solid #ccc;
+}

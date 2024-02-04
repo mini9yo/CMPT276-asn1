@@ -1,0 +1,40 @@
+<!--
+// File: quizApp.html
+// Author: Kaylee Ryu
+// Last Modified: Feb 3, 2024 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="./stylesheets/quizApp.css">
+    <script src="./javascript/quizLogic.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Interactive Quiz (Taylor's Version)</h1>
+    </header>
+    <main>
+        <section id="questions-section">
+            <h2 id="question"></h2>
+            <ul id="options" class="options-list"></ul>
+        </section>
+
+        <section id="navigation-section">
+            <button class= "nav-button" id="prev-button">Previous</button>
+            <button class= "nav-button" id="next-button">Next</button>
+            <button class= "nav-button" id="submit-button">Submit</button>
+        </section>
+
+        <section id="results-section">
+            <h2>Results</h2>
+            <p>Your score: <span id="score"></span></p>
+            <p>Correct answers: <br><span id="correct-answers"></span></p>
+            <button id="restart-button">Restart</button>
+        </section>
+    </main>
+</body>
+</html>
